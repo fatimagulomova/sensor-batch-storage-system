@@ -41,6 +41,8 @@ http://localhost:8081
 * Password: admin123
 
 ## 📂 File Structure
+
+```bash
 sensor-batch-storage-system/
 │
 ├── data/
@@ -54,11 +56,11 @@ sensor-batch-storage-system/
 ├── Dockerfile                         # Environment setup for Python
 ├── docker-compose.yml                 # MongoDB + Mongo Express + App service
 └── README.md                          # Project description
-
+```
 ## 🚀 How It Works
-**clean_csv.py** processes the raw CSV and generates a cleaned version
-**load_data.py** connects to the running MongoDB container and loads **sample_cleaned_sensors.csv** into the sensor_data collection
-**Mongo Express** provides a web interface to verify data loading
+* **clean_csv.py** processes the raw CSV and generates a cleaned version
+* **load_data.py** connects to the running MongoDB container and loads **sample_cleaned_sensors.csv** into the sensor_data collection
+* **Mongo Express** provides a web interface to verify data loading
 
 ## 📝 Author
 Fotimakhon Gulomova – [LinkedIn](https://www.linkedin.com/in/fatima-gulamova/)
